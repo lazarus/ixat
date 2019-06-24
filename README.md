@@ -22,4 +22,4 @@ Keep in mind that many or all features detailed in these sources may be outdated
 
 Shoutout goes to Skyflare, Daniel, Shadow, Techy, Austin, and any other developers that may have been involved over its lifespan, no matter how long.
 
-Rest in peace, Andy. Thank you for being a great friend and for providing us an environment where we could learn freely.
+Rest in peace, Andy, wherever you ended up. Thank you for always being a great friend and for providing us with countless environments where we could learn freely.
