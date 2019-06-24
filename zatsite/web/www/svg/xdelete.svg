@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="5.100000000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 4,3.85) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FF8888"/>
+
+<stop  offset="100%" stop-color="#FF0000"/>
+</radialGradient>
+
+<g id="icons_xdelete_0_Layer1_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 8.5 1.4
+Q 7.62265625 0.5029296875 6.3 0.5
+L 3.65 0.5
+Q 2.3662109375 0.5029296875 1.4 1.4 0.528515625 2.3533203125 0.5 3.65
+L 0.5 6.3
+Q 0.528515625 7.6103515625 1.4 8.5 2.3662109375 9.4484375 3.65 9.45
+L 6.3 9.45
+Q 7.62265625 9.4484375 8.5 8.5 9.4724609375 7.6103515625 9.45 6.3
+L 9.45 3.65
+Q 9.4724609375 2.3533203125 8.5 1.4 Z"/>
+</g>
+
+<path id="icons_xdelete_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 6.3 0.5
+L 3.675 0.5
+Q 2.3662109375 0.5029296875 1.425 1.4 0.528515625 2.3533203125 0.525 3.675
+L 0.525 6.3
+Q 0.528515625 7.6103515625 1.425 8.5 2.3662109375 9.4484375 3.675 9.45
+L 6.3 9.45
+Q 7.62265625 9.4484375 8.525 8.5 9.4724609375 7.6103515625 9.475 6.3
+L 9.475 3.675
+Q 9.4724609375 2.3533203125 8.525 1.4 7.62265625 0.5029296875 6.3 0.5 Z"/>
+
+<path id="icons_xdelete_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 3.05 2.9
+L 7 6.8"/>
+
+<path id="icons_xdelete_0_Layer0_1_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 3 6.9
+L 7.15 2.75"/>
+</defs>
+
+<g transform="matrix( 1.67596435546875, 0, 0, 1.67596435546875, 0.95,0.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icons_xdelete_0_Layer1_0_FILL"/>
+
+<use xlink:href="#icons_xdelete_0_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icons_xdelete_0_Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#icons_xdelete_0_Layer0_1_1_STROKES"/>
+</g>
+</g>
+</svg>

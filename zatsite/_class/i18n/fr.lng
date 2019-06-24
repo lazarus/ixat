@@ -1,0 +1,86 @@
+#test
+bot.test.1 Salut !
+bot.test.2 est un dieu.
+
+#all
+bot.all.notenoughtrank Tu n'as pas le rank minimum (roll).
+bot.all.requested Demandé !
+
+#filter
+bot.filter.spam Tu n'as pas le droit de spammer (d) !
+bot.filter.spamsmileys Tu n'as pas le droit de spammer des smileys (d) !
+bot.filter.inapp Tu n'as pas le droit de dire des mots inapps (d) !
+
+#inapp
+bot.inapp.default Utilisation: !inapp [add/rm/list/cls] [mot].
+bot.inapp.clear   La liste est vidée !
+bot.inapp.added   a été ajouté !
+bot.inapp.removed a été enlevé !
+bot.inapp.error Il manque un ou plusieurs arguments (confused).
+
+#inappban
+bot.inappban.default     Utilisation: !inappban [add/rm/list/cls] [mot].
+bot.inappban.stringword  Le mot
+bot.inappban.stringhours avec un temps de
+bot.inappban.hours		 heures
+bot.inappban.clear       La liste est vidée !
+bot.inappban.added       a été ajouté !
+bot.inappban.removed     a été enlevé !
+bot.inappban.error       Il manque un ou plusieurs arguments (confused).
+
+#staff
+bot.staff.default Utilisation: !staff [add/rm/list/cls] [id] [rank].
+bot.staff.stringid L'id
+bot.staff.stringrank au rang de
+bot.staff.clear   La liste est vidée !
+bot.staff.added   a été ajouté !
+bot.staff.removed a été enlevé !
+bot.staff.error Il manque un ou plusieurs arguments (confused).
+
+#edit
+bot.edit.default  Utilisation: !edit [nick/glow/nc/status/...] [mot].
+bot.edit.empty    Je dois changer par quoi? (confused).
+bot.edit.nickname Mon pseudo a été modifié !
+bot.edit.avatar   Mon avatar a été modifié !
+bot.edit.homepage Ma homepage a été modifiée !
+bot.edit.nameglow Mon nameglow a été modifié !
+bot.edit.namecolor Mon namecolor a été modifié !
+bot.edit.status Mon status a été modifié !
+bot.edit.statusglow Mon statusglow a été modifié !
+bot.edit.hat Mon hat a été modifié !
+bot.edit.hatcolor La couleur de mon hat a été modifiée !
+bot.edit.automember L'automember a été modifié !
+
+#ban
+bot.ban.emptyid  Il me faut son ID :@.
+bot.ban.lord Mon seigneur a demandé, donc j'obéis !
+
+#value
+bot.value.nothere La personne n'est pas sur le chat.
+bot.value.nopower Cette personne n'a aucun powers. Ou alors elle n'a pas de days.
+bot.value.sentence $0 a [$1] powers d'une valeur de $2 - $3 xats, $4 - $5 days, $6 - $7 €.
+
+#dx
+bot.dx.dayinferiorone Je ne peux pas calculer si les days sont négatifs.
+bot.dx.sentence1 days donne
+bot.dx.sentence2 xats.
+
+#xd
+bot.xd.xats13 Je ne peux pas calculer si les xats sont inférieurs à 13.
+bot.xd.sentence1 xats donne
+bot.xd.sentence2 days.
+
+#payment
+bot.payment.message11 Tu as acheté
+bot.payment.message12 secondes de temps premium.
+bot.payment.message2 Ton code est :
+bot.payment.message3 Vas sur oceanproject.eu/?addtimeuser.html pour ajouter le temps à ton compte.
+
+#shortname
+bot.shortname.default    Utilisation: !shortname [short].
+bot.shortname.notallowed n'est pas autorisé, essaye en un autre (shurg) !
+bot.shortname.taken      est déjà pris, essaye en un autre (shurg) !
+bot.shortname.tooshort   est trop petit, essaye en un autre (shurg) !
+bot.shortname.toolong    est trop long, essaye en un autre (shurg) !
+bot.shortname.short      Le shortname
+bot.shortname.cost       coûte

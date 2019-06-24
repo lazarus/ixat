@@ -1,0 +1,103 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="10.600000000000001" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 8.5,8.2) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FE1818"/>
+
+<stop  offset="69.80392156862744%" stop-color="#FE1818"/>
+
+<stop  offset="100%" stop-color="#BA0101"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="9.35" y1="11.5625" x2="9.35" y2="-2.2625" spreadMethod="pad">
+<stop  offset="20.392156862745097%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="73.72549019607843%" stop-color="#FFFFFF" stop-opacity="0.9490196078431372"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.6509803921568628"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0.25098039215686274"/>
+</linearGradient>
+
+<g id="smilies_smilebackMad_0_Layer2_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 16.2 2.75
+Q 15.555078125 2.1087890625 14.85 1.6 12.4962890625 -0.03125 9.45 -0.05 9.0818359375 -0.02578125 8.7 0 6.2634765625 0.176171875 4.3 1.5 3.49375 2.03203125 2.75 2.75 2.47109375 3.054296875 2.2 3.35 -0.02109375 5.9759765625 -0.05 9.45 -0.020703125 13.3880859375 2.75 16.15 5.56171875 18.970703125 9.45 18.95 13.4005859375 18.970703125 16.2 16.15 18.9830078125 13.3880859375 18.95 9.45 18.9830078125 5.5494140625 16.2 2.75 Z"/>
+</g>
+
+<g id="smilies_smilebackMad_0_Layer1_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 16.95 8.55
+Q 17.1 7.9 17.1 7.1 17.1 4.45 14.85 2.55 12.55 0.65 9.35 0.65 6.2 0.65 3.85 2.55 1.6 4.45 1.6 7.1 1.6 8 1.85 8.7
+L 16.95 8.55 Z"/>
+</g>
+
+<g id="smilies_mad_0_Layer2_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 5.95 4.15
+Q 5.65 3.75 5.35 3.55 4.7 3.05 3.95 3.05 2.85 3.05 2 4.15 1.15 5.25 1.15 6.8 1.15 8.35 2 9.45 2.85 10.55 3.95 10.55 5.1 10.55 5.95 9.45 6.8 8.35 6.8 6.8 6.8 5.25 5.95 4.15
+M 13.9 6.8
+Q 13.9 5.25 13.05 4.15 12.75 3.75 12.45 3.55 11.8 3.05 11.05 3.05 9.95 3.05 9.1 4.15 8.25 5.25 8.25 6.8 8.25 8.35 9.1 9.45 9.95 10.55 11.05 10.55 12.2 10.55 13.05 9.45 13.9 8.35 13.9 6.8 Z"/>
+</g>
+
+<g id="smilies_mad_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 5.45 15.75
+Q 6.95 16.2 9.15 16.35 11.3 16.5 12.8 16.35 14.25 16.2 14.4 14.55 14.5 12.9 13.3 11.95 12.15 11 10 12.75 7.8 14.45 5.9 14.1 3.9 13.75 3.9 14.5 3.9 15.25 5.45 15.75 Z"/>
+</g>
+
+<g id="smilies_mad_0_Layer0_0_FILL">
+<path fill="#000099" stroke="none" d="
+M 2.9 9.2
+Q 3.5 9.8 4.35 9.8 5.2 9.8 5.75 9.2 6.35 8.65 6.35 7.85 6.35 7.05 5.75 6.45 5.2 5.9 4.35 5.9 3.5 5.9 2.9 6.45 2.35 7.05 2.35 7.85 2.35 8.65 2.9 9.2
+M 12.95 7.8
+Q 12.95 7 12.35 6.4 11.8 5.85 10.95 5.85 10.1 5.85 9.5 6.4 8.95 7 8.95 7.8 8.95 8.6 9.5 9.15 10.1 9.75 10.95 9.75 11.8 9.75 12.35 9.15 12.95 8.6 12.95 7.8 Z"/>
+</g>
+
+<path id="smilies_mad_0_Layer2_0_1_STROKES" stroke="#333333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 13.9 6.8
+Q 13.9 8.35 13.05 9.45 12.2 10.55 11.05 10.55 9.95 10.55 9.1 9.45 8.25 8.35 8.25 6.8 8.25 5.25 9.1 4.15 9.95 3.05 11.05 3.05 11.8 3.05 12.45 3.55 12.75 3.75 13.05 4.15 13.9 5.25 13.9 6.8 Z
+M 5.95 4.15
+Q 6.8 5.25 6.8 6.8 6.8 8.35 5.95 9.45 5.1 10.55 3.95 10.55 2.85 10.55 2 9.45 1.15 8.35 1.15 6.8 1.15 5.25 2 4.15 2.85 3.05 3.95 3.05 4.7 3.05 5.35 3.55 5.65 3.75 5.95 4.15 Z"/>
+
+<path id="smilies_mad_0_Layer1_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 6.8 3.05
+Q 4.95 0.5 2.55 0.8
+M 9.3 2.55
+Q 11.25 0.8 13.2 0.95"/>
+
+<path id="smilies_mad_0_Layer1_0_2_STROKES" stroke="#990000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 5.45 15.75
+Q 3.9 15.25 3.9 14.5 3.9 13.75 5.9 14.1 7.8 14.45 10 12.75 12.15 11 13.3 11.95 14.5 12.9 14.4 14.55 14.25 16.2 12.8 16.35 11.3 16.5 9.15 16.35 6.95 16.2 5.45 15.75 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smilebackMad_0_Layer2_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smilebackMad_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_mad_0_Layer2_0_FILL"/>
+
+<use xlink:href="#smilies_mad_0_Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_mad_0_Layer1_0_FILL"/>
+
+<use xlink:href="#smilies_mad_0_Layer1_0_1_STROKES"/>
+
+<use xlink:href="#smilies_mad_0_Layer1_0_2_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_mad_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

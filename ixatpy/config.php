@@ -1,0 +1,1 @@
+<?php $config = (object) array( 'db' => array( 0 => '205asdddddd.51',  1 => '222222',  2 => 'a',  3 => 'ztbbbbbbbbat' ) ); ?>

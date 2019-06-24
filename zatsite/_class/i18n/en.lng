@@ -1,0 +1,32 @@
+#Home
+home.latest.voted The latest <b>VOTED</b> power released was <b id="lvn">{0}</b>.<br />
+home.latest.next The next power will be released in <span id="hours">{0}</span> hours, <span id="minutes">{1}</span> minutes and <span id="seconds">{2}</span> seconds.<br />
+home.latest.added The latest <b>ADDED</b> power was <strong id="lp">{0} [{1}]</strong> for <strong>{2}</strong> xats
+
+home.embed Embed
+
+#Index
+index.title Innovation and excellence brought to xat private servers.
+index.nav.home Home
+index.nav.store Store
+index.nav.pow Powers
+index.nav.short Short name
+index.nav.auction Auction
+index.nav.group Groups
+index.nav.promo Promote
+index.nav.create Create
+index.nav.edit Edit
+index.nav.acc Settings
+index.nav.admin Admin Panel
+index.nav.relog Relogin
+index.nav.logout Logout
+index.nav.get Get more!
+index.nav.offer Offers
+index.nav.ticket Support
+index.nav.login Login
+index.nav.register Register
+index.nav.donate Donate
+index.nav.chance50 50/50 Chance
+
+index.footer.version <b>Version</b> {0}
+index.footer.copyright <strong>Copyright &copy; {0} <a href="http://ixat.io">iXat/Zat</a>.</strong> All rights reserved.

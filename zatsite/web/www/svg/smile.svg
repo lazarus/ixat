@@ -1,0 +1,85 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="10.600000000000001" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 8.5,8.2) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FEDA18"/>
+
+<stop  offset="69.80392156862744%" stop-color="#FEDA18"/>
+
+<stop  offset="100%" stop-color="#BA9501"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="9.35" y1="11.5625" x2="9.35" y2="-2.2625" spreadMethod="pad">
+<stop  offset="20.392156862745097%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="73.72549019607843%" stop-color="#FFFFFF" stop-opacity="0.9490196078431372"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.6509803921568628"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0.25098039215686274"/>
+</linearGradient>
+
+<g id="smilies_smileback_0_Layer2_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 16.2 2.75
+Q 15.555078125 2.1087890625 14.85 1.6 12.4962890625 -0.03125 9.45 -0.05 9.0818359375 -0.02578125 8.7 0 6.2634765625 0.176171875 4.3 1.5 3.49375 2.03203125 2.75 2.75 2.47109375 3.054296875 2.2 3.35 -0.02109375 5.9759765625 -0.05 9.45 -0.020703125 13.3880859375 2.75 16.15 5.56171875 18.970703125 9.45 18.95 13.4005859375 18.970703125 16.2 16.15 18.9830078125 13.3880859375 18.95 9.45 18.9830078125 5.5494140625 16.2 2.75 Z"/>
+</g>
+
+<g id="smilies_smileback_0_Layer1_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 16.95 8.55
+Q 17.1 7.9 17.1 7.1 17.1 4.45 14.85 2.55 12.55 0.65 9.35 0.65 6.2 0.65 3.85 2.55 1.6 4.45 1.6 7.1 1.6 8 1.85 8.7
+L 16.95 8.55 Z"/>
+</g>
+
+<g id="smilies_smile_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 3.7 9.8
+Q 4.55 10.9 5.65 10.9 6.8 10.9 7.65 9.8 8.5 8.7 8.5 7.15 8.5 5.6 7.65 4.5 6.8 3.4 5.65 3.4 4.55 3.4 3.7 4.5 2.85 5.6 2.85 7.15 2.85 8.7 3.7 9.8
+M 12.9 3.4
+Q 11.8 3.4 10.95 4.5 10.1 5.6 10.1 7.15 10.1 8.7 10.95 9.8 11.8 10.9 12.9 10.9 14.05 10.9 14.9 9.8 15.75 8.7 15.75 7.15 15.75 5.6 14.9 4.5 14.05 3.4 12.9 3.4 Z"/>
+</g>
+
+<g id="smilies_smile_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 7.55 5.95
+Q 7 5.4 6.2 5.4 5.4 5.4 4.8 5.95 4.25 6.55 4.25 7.4 4.25 8.25 4.8 8.8 5.4 9.4 6.2 9.4 7 9.4 7.55 8.8 8.15 8.25 8.15 7.4 8.15 6.55 7.55 5.95
+M 13.7 5.95
+Q 13.15 5.4 12.35 5.4 11.55 5.4 10.95 5.95 10.4 6.55 10.4 7.4 10.4 8.25 10.95 8.8 11.55 9.4 12.35 9.4 13.15 9.4 13.7 8.8 14.3 8.25 14.3 7.4 14.3 6.55 13.7 5.95 Z"/>
+</g>
+
+<path id="smilies_smile_0_Layer1_0_1_STROKES" stroke="#333333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 12.9 3.4
+Q 14.05 3.4 14.9 4.5 15.75 5.6 15.75 7.15 15.75 8.7 14.9 9.8 14.05 10.9 12.9 10.9 11.8 10.9 10.95 9.8 10.1 8.7 10.1 7.15 10.1 5.6 10.95 4.5 11.8 3.4 12.9 3.4 Z
+M 3.7 9.8
+Q 2.85 8.7 2.85 7.15 2.85 5.6 3.7 4.5 4.55 3.4 5.65 3.4 6.8 3.4 7.65 4.5 8.5 5.6 8.5 7.15 8.5 8.7 7.65 9.8 6.8 10.9 5.65 10.9 4.55 10.9 3.7 9.8 Z"/>
+
+<path id="smilies_smile_0_Layer1_0_2_STROKES" stroke="#990000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 4.25 13
+Q 9.2 18.95 15.1 12.9"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer2_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smile_0_Layer1_0_FILL"/>
+
+<use xlink:href="#smilies_smile_0_Layer1_0_1_STROKES"/>
+
+<use xlink:href="#smilies_smile_0_Layer1_0_2_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smile_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

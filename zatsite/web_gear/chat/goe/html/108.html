@@ -1,0 +1,72 @@
+<h1>Love flix settings.</h1>
+<table width="100%" height=50 cellspacing=0 cellpadding=2 border=0>
+    <tr>
+        <td>Effect</td>
+        <td>
+            <select id="ids_ef">
+                <option value="0">None</option>
+                <option value="1" selected>Be my Valentine</option>
+                <option value="2">Two hearts</option>
+                <option value="3">I love you</option>
+                <option value="4">Multi heart</option>
+                <option value="5">Happy Valentine</option>
+                <option value="6">Smiley heart</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>
+            <select id="ids_bk">
+                <option value="0">None</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Colors eg r#g or FF00FF#0000FF</td>
+        <td>
+            <input type="text" value="" id="idt_col">
+        </td>
+    </tr>
+    <tr>
+        <td>Horizontal offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_XX">
+        </td>
+    </tr>
+    <tr>
+        <td>Vertical offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_YY">
+        </td>
+    </tr>
+    <tr>
+        <td>Scale % (5-1000)</td>
+        <td>
+            <input type="text" value="" id="idt_SC">
+        </td>
+    </tr>
+    <tr>
+        <td>Smiley eg beat</td>
+        <td>
+            <input type="text" value="" id="idt_SM">
+        </td>
+    </tr>
+    <tr>
+        <td>Options</td>
+        <td>No background:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_0"> No text:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_1"> 
+		</td>
+    </tr>
+    <tr>
+        <td>
+            <BR />
+            <button type="button" onClick="changeParent()">Ok</button>
+            <button type="button" onClick="window.close()">Cancel</button>
+            <button type="button" onClick="setDefault()">Defaults</button>
+        </td>
+        <td></td>
+    </tr>
+</table>
+<p><a href="http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html" target="_blank">Color code picker</a></p>

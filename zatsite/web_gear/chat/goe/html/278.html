@@ -1,0 +1,51 @@
+<h1>Spring flix settings.</h1>
+<table width="100%" height=50 cellspacing=0 cellpadding=2 border=0>
+    <tr>
+        <td>Effect</td>
+        <td>
+            <select id="ids_ef">
+                <option value="0">None</option>
+                <option value="1" selected>Flower grow</option>
+                <option value="2">Random flowers</option>
+                <option value="3">Butterfly</option>
+                <option value="4">Sunflowers</option>
+                <option value="5">Spring</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>
+            <select id="ids_bk">
+                <option value="0">None</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Horizontal offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_XX">
+        </td>
+    </tr>
+    <tr>
+        <td>Vertical offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_YY">
+        </td>
+    </tr>
+    <tr>
+        <td>Scale % (1-1000)</td>
+        <td>
+            <input type="text" value="" id="idt_SC">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <BR />
+            <button type="button" onClick="changeParent()">Ok</button>
+            <button type="button" onClick="window.close()">Cancel</button>
+            <button type="button" onClick="setDefault()">Defaults</button>
+        </td>
+        <td></td>
+    </tr>
+</table>

@@ -1,0 +1,123 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="10.600000000000001" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 8.5,8.2) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FEDA18"/>
+
+<stop  offset="69.80392156862744%" stop-color="#FEDA18"/>
+
+<stop  offset="100%" stop-color="#BA9501"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="9.35" y1="11.5625" x2="9.35" y2="-2.2625" spreadMethod="pad">
+<stop  offset="20.392156862745097%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="73.72549019607843%" stop-color="#FFFFFF" stop-opacity="0.9490196078431372"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.6509803921568628"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0.25098039215686274"/>
+</linearGradient>
+
+<radialGradient id="Gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="3.9499999999999997" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 1.65,10.75) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FF0000" stop-opacity="0.9019607843137255"/>
+
+<stop  offset="100%" stop-color="#FF0000" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="Gradient_4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="3.9499999999999993" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 14.05,10.75) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FF0000" stop-opacity="0.9019607843137255"/>
+
+<stop  offset="100%" stop-color="#FF0000" stop-opacity="0"/>
+</radialGradient>
+
+<g id="smilies_smileback_0_Layer2_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 16.2 2.75
+Q 15.555078125 2.1087890625 14.85 1.6 12.4962890625 -0.03125 9.45 -0.05 9.0818359375 -0.02578125 8.7 0 6.2634765625 0.176171875 4.3 1.5 3.49375 2.03203125 2.75 2.75 2.47109375 3.054296875 2.2 3.35 -0.02109375 5.9759765625 -0.05 9.45 -0.020703125 13.3880859375 2.75 16.15 5.56171875 18.970703125 9.45 18.95 13.4005859375 18.970703125 16.2 16.15 18.9830078125 13.3880859375 18.95 9.45 18.9830078125 5.5494140625 16.2 2.75 Z"/>
+</g>
+
+<g id="smilies_smileback_0_Layer1_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 16.95 8.55
+Q 17.1 7.9 17.1 7.1 17.1 4.45 14.85 2.55 12.55 0.65 9.35 0.65 6.2 0.65 3.85 2.55 1.6 4.45 1.6 7.1 1.6 8 1.85 8.7
+L 16.95 8.55 Z"/>
+</g>
+
+<g id="smilies_redface_0_Layer3_0_FILL">
+<path fill="url(#Gradient_3)" stroke="none" d="
+M 4.6 8.75
+Q 4.2 8.1 3.6 7.7 3.05 7.25 2.35 7.2 1.55 6.95 0.75 7
+L 0.4 9.05
+Q 0.35 9.65 0.4 10.3 0.4 10.85 0.55 11.35 0.65 11.9 0.9 12.4 1.15 13 1.4 13.6 1.6 14.1 1.75 14.65 2.1 14.6 2.5 14.6 3.1 14.3 3.65 13.9 4.2 13.45 4.55 12.85 4.95 12.25 5.05 11.55 5.2 10.75 5.05 10.05 4.95 9.3 4.6 8.75 Z"/>
+
+<path fill="url(#Gradient_4)" stroke="none" d="
+M 11.5 8
+Q 10.45 9.15 10.45 10.75 10.45 12.35 11.5 13.5 12.55 14.65 14.05 14.65 15.55 14.65 16.6 13.5 17.65 12.35 17.65 10.75 17.65 9.15 16.6 8 15.55 6.85 14.05 6.85 12.55 6.85 11.5 8 Z"/>
+</g>
+
+<g id="smilies_redface_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 3.65 3.25
+Q 2.55 3.25 1.7 4.35 0.85 5.45 0.85 7 0.85 8.55 1.7 9.65 2.55 10.75 3.65 10.75 4.8 10.75 5.65 9.65 6.5 8.55 6.5 7 6.5 5.45 5.65 4.35 5.35 3.95 5.05 3.75 4.4 3.25 3.65 3.25
+M 12.8 4.35
+Q 12.5 3.95 12.2 3.75 11.55 3.25 10.8 3.25 9.7 3.25 8.85 4.35 8 5.45 8 7 8 8.55 8.85 9.65 9.7 10.75 10.8 10.75 11.95 10.75 12.8 9.65 13.65 8.55 13.65 7 13.65 5.45 12.8 4.35 Z"/>
+</g>
+
+<g id="smilies_redface_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 3.1 6.6
+Q 2.55 7.15 2.55 7.9 2.55 8.65 3.1 9.2 3.65 9.75 4.4 9.75 5.15 9.75 5.7 9.2 6.25 8.65 6.25 7.9 6.25 7.15 5.7 6.6 5.15 6.05 4.4 6.05 3.65 6.05 3.1 6.6
+M 13.15 7.9
+Q 13.15 7.15 12.6 6.6 12.05 6.05 11.3 6.05 10.55 6.05 10 6.6 9.45 7.15 9.45 7.9 9.45 8.65 10 9.2 10.55 9.75 11.3 9.75 12.05 9.75 12.6 9.2 13.15 8.65 13.15 7.9 Z"/>
+</g>
+
+<path id="smilies_redface_0_Layer2_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 8.85 1.05
+Q 11.85 0.15 14.35 2.55
+M 2.75 2.25
+Q 4.1 0.9 5.4 1.35"/>
+
+<path id="smilies_redface_0_Layer2_0_2_STROKES" stroke="#990000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 5.65 14.65
+Q 8.2 14.65 10.75 14.65"/>
+
+<path id="smilies_redface_0_Layer1_0_1_STROKES" stroke="#333333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 12.8 4.35
+Q 13.65 5.45 13.65 7 13.65 8.55 12.8 9.65 11.95 10.75 10.8 10.75 9.7 10.75 8.85 9.65 8 8.55 8 7 8 5.45 8.85 4.35 9.7 3.25 10.8 3.25 11.55 3.25 12.2 3.75 12.5 3.95 12.8 4.35 Z
+M 3.65 3.25
+Q 4.4 3.25 5.05 3.75 5.35 3.95 5.65 4.35 6.5 5.45 6.5 7 6.5 8.55 5.65 9.65 4.8 10.75 3.65 10.75 2.55 10.75 1.7 9.65 0.85 8.55 0.85 7 0.85 5.45 1.7 4.35 2.55 3.25 3.65 3.25 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer2_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_redface_0_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_redface_0_Layer2_0_1_STROKES"/>
+
+<use xlink:href="#smilies_redface_0_Layer2_0_2_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_redface_0_Layer1_0_FILL"/>
+
+<use xlink:href="#smilies_redface_0_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_redface_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

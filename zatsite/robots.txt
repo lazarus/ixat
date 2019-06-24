@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Sitemap: http://ixat.io/sitemap.xml
+
+User-agent: MJ12bot
+Disallow: /

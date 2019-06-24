@@ -1,0 +1,108 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="9.667964172978714" fx="0" fy="0" gradientTransform="matrix( 0.4835557844811113, -0.8753135457051132, 0.5145861022018243, 0.28185871929647666, 8.15,13.8) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#000000" stop-opacity="0.4117647058823529"/>
+
+<stop  offset="100%" stop-color="#013198" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="Gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="5.021096120370531" fx="0" fy="0" gradientTransform="matrix( 0.7767228323269383, -0.6298425531369083, 0.4008088974507598, 0.4929202589767108, 6.9,5.15) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#000000" stop-opacity="0.4235294117647059"/>
+
+<stop  offset="100%" stop-color="#013198" stop-opacity="0"/>
+</radialGradient>
+
+<g id="Extra_Symbols__Ignore_This_Folder___Chatter_ChatterB_0_Layer0_0_FILL">
+<path fill="#009900" stroke="none" d="
+M 8.3 3.4
+Q 8.2974609375 1.993359375 7.3 1 6.3072265625 0.00390625 4.9 0 3.492578125 0.00390625 2.5 1 1.50234375 1.993359375 1.5 3.4 1.50234375 4.806640625 2.5 5.8 3.492578125 6.78359375 4.9 6.75 3.2388671875 6.9326171875 1.7 9.1 -0.062109375 11.6072265625 0 14.85 0.025 15.912890625 5.15 16 10.26640625 16.0830078125 10.2 15.05 10.011328125 11.7240234375 8.45 9.2 6.997265625 6.7763671875 5.15 6.75 6.40390625 6.6900390625 7.3 5.8 8.2974609375 4.806640625 8.3 3.4 Z"/>
+</g>
+
+<g id="Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 5.45 7.3
+L 5.4 7.3
+Q 3.75 7.45 2.2 9.65 0.45 12.1 0.5 15.4 0.55 16.4 5.65 16.5 10.75 16.6 10.7 15.55 10.5 12.2 9 9.75 7.5 7.3 5.7 7.3 5.55 7.3 5.45 7.3
+M 2.7 14.9
+Q 3 10.65 5.4 9.1 3 10.65 2.7 14.9 Z"/>
+
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 7.8 1.5
+Q 6.8 0.5 5.4 0.5 4 0.5 3 1.5 2 2.5 2 3.9 2 5.3 3 6.3 4 7.3 5.4 7.3
+L 5.45 7.3
+Q 5.55 7.3 5.7 7.3 6.9 7.2 7.8 6.3 8.8 5.3 8.8 3.9 8.8 2.5 7.8 1.5
+M 3.7 3.95
+Q 3.9 2.65 5 2.1 3.9 2.65 3.7 3.95 Z"/>
+</g>
+
+<g id="Extra_Symbols__Ignore_This_Folder___App_Icons_heart_0_Layer0_0_FILL">
+<path fill="#990000" stroke="none" d="
+M 12.75 23.05
+Q 14.85 23.9 17.25 24.9 37.4 -0.55 26.3 -7.5 26.2 12 12.75 23.05 Z"/>
+
+<path fill="#DF1D0E" stroke="none" d="
+M 26.3 -7.5
+Q 23.1 -9.6 17.1 -10.1 10.4 -9.25 9.9 -2.9 5.25 -8.5 -1.1 -5.15 -19.5 8.9 12.75 23.05 26.2 12 26.3 -7.5
+M 16.6 -1.9
+L 11 -5.15
+Q 16.25 -10.1 22.35 -8.85 16.85 -6.75 16.6 -1.9
+M 2.65 2.55
+Q 0.4 9.65 10.15 16.85 2.05 16.1 -1.8 10.5 -7.05 1.7 -0.1 -1.4
+L 2.65 2.55 Z"/>
+
+<path fill="#FFFFFF" stroke="none" d="
+M 10.15 16.85
+Q 0.4 9.65 2.65 2.55
+L -0.1 -1.4
+Q -7.05 1.7 -1.8 10.5 2.05 16.1 10.15 16.85
+M 11 -5.15
+L 16.6 -1.9
+Q 16.85 -6.75 22.35 -8.85 16.25 -10.1 11 -5.15 Z"/>
+</g>
+
+<path id="Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_1_STROKES" stroke="#000000" stroke-opacity="0.6509803921568628" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 5.4 7.3
+Q 4 7.3 3 6.3 2 5.3 2 3.9 2 2.5 3 1.5 4 0.5 5.4 0.5 6.8 0.5 7.8 1.5 8.8 2.5 8.8 3.9 8.8 5.3 7.8 6.3 6.9 7.2 5.7 7.3 7.5 7.3 9 9.75 10.5 12.2 10.7 15.55 10.75 16.6 5.65 16.5 0.55 16.4 0.5 15.4 0.45 12.1 2.2 9.65 3.75 7.45 5.4 7.3 Z"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_2_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 3.7 3.95
+Q 3.9 2.65 5 2.1
+M 2.7 14.9
+Q 3 10.65 5.4 9.1"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_3_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 5.45 7.3
+L 5.4 7.3"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder___App_Icons_heart_0_Layer0_0_1_STROKES" stroke="#990000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 12.75 23.05
+Q -19.5 8.9 -1.1 -5.15 5.25 -8.5 9.9 -2.9 10.4 -9.25 17.1 -10.1 23.1 -9.6 26.3 -7.5 37.4 -0.55 17.25 24.9 14.85 23.9 12.75 23.05 Z"/>
+</defs>
+
+<g transform="matrix( 2.288116455078125, 0, 0, 2.288116455078125, 5.4,0.25) ">
+<g id="col0" transform="matrix( 1, 0, 0, 1, 0.5,0.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder___Chatter_ChatterB_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_FILL"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_1_STROKES"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_2_STROKES"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__pawn_0_Layer1_0_3_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0.459442138671875, 0, 0, 0.459442138671875, 20.75,22.25) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder___App_Icons_heart_0_Layer0_0_FILL"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder___App_Icons_heart_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>

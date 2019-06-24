@@ -1,0 +1,32 @@
+#Home
+home.latest.voted La última potencia <b> VOTADO </b> lanzada fue <b id = "lvn">{0}</b>.<br />
+home.latest.next La siguiente potencia se publicará en <span id = "hours">{0}</span> horas, <span id = "minutes">{1}</span> minutos y <span id = "seconds">{2}</span> segundos.<br />
+home.latest.added La última generación de ADICIONAL fue <strong id = "lp">{0} [{1}]</strong> para <strong>{2}</strong> zats
+
+home.embed Empotrar
+
+#Index
+index.title Innovación y excelencia llevada a xat servidores privados.
+index.nav.home Casa
+index.nav.store Tienda
+index.nav.pow Potestades
+index.nav.short Nombre corto
+index.nav.auction Subastas
+index.nav.group Grupos
+index.nav.promo Promocionar
+index.nav.create Crear
+index.nav.edit Editar
+index.nav.acc Ajustes
+index.nav.admin Admin Panel
+index.nav.relog Relogin
+index.nav.logout Cerrar sesión
+index.nav.get Obtener más!
+index.nav.offer Ofertas
+index.nav.ticket Entradas
+index.nav.login Acceder
+index.nav.register Registrar
+index.nav.donate Donar
+index.nav.chance50 50/50 Chance
+
+index.footer.version <b>Versión</b> {0}
+index.footer.copyright <strong>derechos de autor &copy; {0} <a href="http://ixat.io">iXat/Zat</a>.</strong> Todos los derechos reservados.

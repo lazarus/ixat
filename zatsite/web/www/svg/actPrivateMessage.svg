@@ -1,0 +1,98 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="-8.881784197001252e-16" y1="9.1" x2="9.2" y2="9.1" spreadMethod="pad">
+<stop  offset="0.7843137254901961%" stop-color="#FFFFFF"/>
+
+<stop  offset="51.76470588235294%" stop-color="#FF9900"/>
+
+<stop  offset="100%" stop-color="#FFFFFF"/>
+</linearGradient>
+
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0" result="result1"/>
+</filter>
+
+<g id="Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer1_0_FILL">
+<path fill="#0099FF" stroke="none" d="
+M 15.3 -12.55
+Q 15.3 -18.55 9.7 -22.9 4.2 -27.1 -3.7 -27.1 -4.55 -27.1 -5.7 -27 -12.15 -26.55 -17.1 -22.9 -22.7 -18.55 -22.7 -12.55 -22.7 -6.35 -17.1 -2.15 -15.5 -0.95 -13.85 0 -14.35 4.2 -19.2 8.3 -12.15 7.25 -7.2 2 -5.5 2.2 -3.7 2.2 4.2 2.2 9.7 -2.15 11.7 -3.6 13 -5.5 15.3 -8.65 15.3 -12.55 Z"/>
+</g>
+
+<g id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer3_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 0 12
+L 9.2 12 9.2 6.25 0 6.25 0 12 Z"/>
+</g>
+
+<g id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_PadBody_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 8.2 0
+L 0 0 0 4.75 8.2 4.75 8.2 0 Z"/>
+</g>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-opacity="0.45098039215686275" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 9.05 -18.55
+Q -3.9 -28.35 -16.6 -18.8"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer0_0_2_STROKES" stroke="#333333" stroke-opacity="0.45098039215686275" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 9.7 -22.9
+Q 4.2 -27.1 -3.7 -27.1 -4.55 -27.1 -5.7 -27 -12.15 -26.55 -17.1 -22.9 -22.7 -18.55 -22.7 -12.55 -22.7 -6.35 -17.1 -2.15 -15.5 -0.95 -13.85 0 -14.35 4.2 -19.2 8.3 -12.15 7.25 -7.2 2 -5.5 2.2 -3.7 2.2 4.2 2.2 9.7 -2.15 11.7 -3.6 13 -5.5 15.3 -8.65 15.3 -12.55 15.3 -18.55 9.7 -22.9 Z"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer4_0_1_STROKES" stroke="#666666" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0.9 6.425
+Q 0.9 4.3484375 0.9 4.025 0.9025390625 2.4994140625 1.975 1.425 3.037890625 0.3373046875 4.55 0.325 6.0740234375 0.3373046875 7.15 1.425 8.222265625 2.4994140625 8.225 4.025 8.242578125 4.3658203125 8.275 6.425"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer2_0_1_STROKES" stroke="#FF9900" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0 9.125
+L 9.2 9.125"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer2_0_2_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0.9 3
+Q 1.0693359375 1.9046875 1.875 1.075 2.9505859375 -0.000390625 4.475 0 5.1857421875 -0.000390625 5.8 0.225"/>
+
+<path id="Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer0_0_1_STROKES" stroke="#484848" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 9.2 6.25
+L 9.2 12 0 12 0 6.25 9.2 6.25 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 20.3,21.35) ">
+<g transform="matrix( 0.801422119140625, 0, 0, 0.7652740478515625, 3,7.2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer0_0_1_STROKES"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Duplicate_Items_Folder_ChatBubble_0_Layer0_0_2_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0.9643096923828125, 0, 0, 0.9643096923828125, -4.4,-9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer4_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer2_0_1_STROKES"/>
+
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer2_0_2_STROKES"/>
+</g>
+
+<g id="back" transform="matrix( 1.136810302734375, 0, 0, 1.2127685546875, -0.1,6.25) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_PadBody_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Extra_Symbols__Ignore_This_Folder__Symbols_icons_lock_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</g>
+</svg>

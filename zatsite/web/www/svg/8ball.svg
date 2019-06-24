@@ -1,0 +1,68 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="253.1125" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 119.55,60.95) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="22.745098039215687%" stop-color="#818181"/>
+
+<stop  offset="89.80392156862744%" stop-color="#000400"/>
+</radialGradient>
+
+<radialGradient id="Gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="117.28750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999999, 0, 0, 0.9999999999999999, -16,-34) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="100%" stop-color="#C8C8C8"/>
+</radialGradient>
+
+<g id="shape_1_0_Layer0_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 315.15 56.35
+Q 267.45 8.65 200 8.65 132.55 8.65 84.85 56.35 37.15 104.05 37.15 171.5 37.15 238.95 84.85 286.65 132.55 334.35 200 334.35 267.45 334.35 315.15 286.65 362.85 238.95 362.85 171.5 362.85 104.05 315.15 56.35 Z"/>
+</g>
+
+<g id="shape_2_0_Layer0_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 57.6 -57.55
+Q 33.75 -81.4 0 -81.4 -33.7 -81.4 -57.55 -57.55 -81.4 -33.7 -81.4 0 -81.4 33.75 -57.55 57.6 -33.7 81.45 0 81.45 33.75 81.45 57.6 57.6 81.45 33.75 81.45 0 81.45 -33.7 57.6 -57.55 Z"/>
+</g>
+
+<path id="shape_1_0_Layer0_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 315.15 56.35
+Q 362.85 104.05 362.85 171.5 362.85 238.95 315.15 286.65 267.45 334.35 200 334.35 132.55 334.35 84.85 286.65 37.15 238.95 37.15 171.5 37.15 104.05 84.85 56.35 132.55 8.65 200 8.65 267.45 8.65 315.15 56.35 Z"/>
+
+<path id="shape_2_0_Layer0_0_1_STROKES" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 57.6 -57.55
+Q 81.45 -33.7 81.45 0 81.45 33.75 57.6 57.6 33.75 81.45 0 81.45 -33.7 81.45 -57.55 57.6 -81.4 33.75 -81.4 0 -81.4 -33.7 -57.55 -57.55 -33.7 -81.4 0 -81.4 33.75 -81.4 57.6 -57.55 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g id="egg" transform="matrix( 0.0583343505859375, 0, 0, 0.0583343505859375, 9.5,11.15) ">
+<g transform="matrix( 1, 0, 0, 1, -200,-200) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#shape_1_0_Layer0_0_FILL"/>
+
+<use xlink:href="#shape_1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-28) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#shape_2_0_Layer0_0_FILL"/>
+
+<use xlink:href="#shape_2_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -50,-85.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<clipPath id="Mask_Mask_1">
+<rect x="25.2" y="-1.95" width="123.5" height="218.5" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="27.2" y="86.95" baseline-shift="0%" font-family="Arial Bold" font-weight="bold" font-size="96" fill="#000000" xml:space="preserve">8</tspan></text>
+</g>
+</g>
+</g>
+</g>
+</svg>

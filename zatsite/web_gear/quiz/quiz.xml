@@ -1,0 +1,159 @@
+<CQuiz>
+
+<CBackgroundObject id='0'>
+<m_pImage>(\Backgrounds\xat_beams.jpg</m_pImage>
+<m_bColorize>1</m_bColorize>
+<m_BackgroundColor>10027212</m_BackgroundColor>
+<m_ForegroundColor>1584725</m_ForegroundColor>
+<m_bRandomizeQuestions>1</m_bRandomizeQuestions>
+</CBackgroundObject>
+
+<CPageObject id='1'>
+<m_Type>1</m_Type>
+<CButtonObject id='2'>
+<m_Rect_top>62839</m_Rect_top>
+<m_Rect_left>17893</m_Rect_left>
+<m_Rect_bottom>78095</m_Rect_bottom>
+<m_Rect_right>81879</m_Rect_right>
+<m_String>Play the Quiz</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>0</m_bCorrectAnswer>
+</CButtonObject>
+
+<CTextObject id='3'>
+<m_Rect_top>22809</m_Rect_top>
+<m_Rect_left>15968</m_Rect_left>
+<m_Rect_bottom>52416</m_Rect_bottom>
+<m_Rect_right>82672</m_Rect_right>
+<m_String>Click to Enter Quiz Title</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_bBorderColor>0</m_bBorderColor>
+<m_strURL></m_strURL>
+</CTextObject>
+
+</CPageObject>
+
+<CPageObject id='4'>
+<m_Type>2</m_Type>
+<CScoreObject id='5'>
+<m_Rect_top>4984</m_Rect_top>
+<m_Rect_left>70215</m_Rect_left>
+<m_Rect_bottom>39728</m_Rect_bottom>
+<m_Rect_right>97508</m_Rect_right>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+</CScoreObject>
+
+<CTextObject id='6'>
+<m_Rect_top>5438</m_Rect_top>
+<m_Rect_left>6681</m_Rect_left>
+<m_Rect_bottom>52869</m_Rect_bottom>
+<m_Rect_right>66364</m_Rect_right>
+<m_String>Question0</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_bBorderColor>0</m_bBorderColor>
+<m_strURL></m_strURL>
+</CTextObject>
+
+<CButtonObject id='7'>
+<m_Rect_top>57703</m_Rect_top>
+<m_Rect_left>6568</m_Rect_left>
+<m_Rect_bottom>74923</m_Rect_bottom>
+<m_Rect_right>46545</m_Rect_right>
+<m_String>Correct0</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>1</m_bCorrectAnswer>
+</CButtonObject>
+
+<CButtonObject id='8'>
+<m_Rect_top>81419</m_Rect_top>
+<m_Rect_left>6455</m_Rect_left>
+<m_Rect_bottom>98036</m_Rect_bottom>
+<m_Rect_right>46432</m_Rect_right>
+<m_String>Wrong2</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>0</m_bCorrectAnswer>
+</CButtonObject>
+
+<CButtonObject id='9'>
+<m_Rect_top>57250</m_Rect_top>
+<m_Rect_left>52774</m_Rect_left>
+<m_Rect_bottom>75074</m_Rect_bottom>
+<m_Rect_right>92751</m_Rect_right>
+<m_String>Wrong1</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>0</m_bCorrectAnswer>
+</CButtonObject>
+
+<CButtonObject id='10'>
+<m_Rect_top>80966</m_Rect_top>
+<m_Rect_left>52774</m_Rect_left>
+<m_Rect_bottom>97733</m_Rect_bottom>
+<m_Rect_right>92751</m_Rect_right>
+<m_String>Wrong3</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>0</m_bCorrectAnswer>
+</CButtonObject>
+
+</CPageObject>
+
+<CPageObject id='11'>
+<m_Type>4</m_Type>
+<CTextObject id='12'>
+<m_Rect_top>0</m_Rect_top>
+<m_Rect_left>15628</m_Rect_left>
+<m_Rect_bottom>20000</m_Rect_bottom>
+<m_Rect_right>84597</m_Rect_right>
+<m_String>Quiz results:</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_bBorderColor>0</m_bBorderColor>
+<m_strURL></m_strURL>
+</CTextObject>
+
+<CButtonObject id='13'>
+<m_Rect_top>86706</m_Rect_top>
+<m_Rect_left>35107</m_Rect_left>
+<m_Rect_bottom>96675</m_Rect_bottom>
+<m_Rect_right>65005</m_Rect_right>
+<m_String>Play Again?</m_String>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+<m_HighlightColor>16711680</m_HighlightColor>
+<m_bCorrectAnswer>0</m_bCorrectAnswer>
+</CButtonObject>
+
+<CScoreObject id='14'>
+<m_Rect_top>17371</m_Rect_top>
+<m_Rect_left>3397</m_Rect_left>
+<m_Rect_bottom>83685</m_Rect_bottom>
+<m_Rect_right>96715</m_Rect_right>
+<m_TextColor>16777215</m_TextColor>
+<m_BorderColor>10027212</m_BorderColor>
+<m_BackgroundColor>0</m_BackgroundColor>
+</CScoreObject>
+
+</CPageObject>
+</CQuiz>

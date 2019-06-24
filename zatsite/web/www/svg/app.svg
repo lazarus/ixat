@@ -1,0 +1,71 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="-0.05" y1="2.175" x2="-0.05" y2="-10.075" spreadMethod="pad">
+<stop  offset="20.392156862745097%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="73.72549019607843%" stop-color="#FFFFFF" stop-opacity="0.9490196078431372"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.6509803921568628"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0.25098039215686274"/>
+</linearGradient>
+
+<g id="smilies_smileback_0_Layer2_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 16.2 2.75
+Q 15.555078125 2.1087890625 14.85 1.6 12.4962890625 -0.03125 9.45 -0.05 9.0818359375 -0.02578125 8.7 0 6.2634765625 0.176171875 4.3 1.5 3.49375 2.03203125 2.75 2.75 2.47109375 3.054296875 2.2 3.35 -0.02109375 5.9759765625 -0.05 9.45 -0.020703125 13.3880859375 2.75 16.15 5.4009765625 18.809375 9 18.95 9.24921875 18.9748046875 9.45 18.95 13.4005859375 18.970703125 16.2 16.15 18.4962890625 13.8755859375 18.9 10.8 18.9763671875 10.159375 18.95 9.45 18.9830078125 5.5494140625 16.2 2.75 Z"/>
+</g>
+
+<g id="Layer1_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 6.75 -0.45
+Q 6.85 -1.05 6.85 -1.75 6.85 -4.1 4.85 -5.8 2.85 -7.45 0 -7.45 -2.8 -7.45 -4.9 -5.8 -6.9 -4.1 -6.9 -1.75 -6.9 -0.95 -6.65 -0.35
+L 6.75 -0.45 Z"/>
+</g>
+
+<g id="Layer0_0_FILL">
+<path fill="#9900CC" stroke="none" d="
+M 5.05 0.2
+L 5.1 -5.05 -0.1 -5.05 -0.1 0.2 5.05 0.2 Z"/>
+
+<path fill="#F9C931" stroke="none" d="
+M -0.1 0.2
+L -0.1 5.4 5.05 5.4 5.05 0.2 -0.1 0.2 Z"/>
+
+<path fill="#CC0000" stroke="none" d="
+M -0.1 0.2
+L -5.3 0.2 -5.3 5.4 -0.1 5.4 -0.1 0.2 Z"/>
+
+<path fill="#02A9D2" stroke="none" d="
+M -0.1 -5.05
+L -5.3 -5.05 -5.3 0.2 -0.1 0.2 -0.1 -5.05 Z"/>
+</g>
+
+<path id="Layer2_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 9 0.05
+Q 9 3.85 6.45 6.5 3.8 9.05 0 9.05 -3.75 9.05 -6.35 6.5 -9 3.85 -9 0.05 -9 -3.7 -6.35 -6.3 -3.75 -8.95 0 -8.95 3.8 -8.95 6.45 -6.3 9 -3.7 9 0.05 Z"/>
+</defs>
+
+<g transform="matrix( 0.9763031005859375, 0, 0, 0.95819091796875, 9.5,9.55) ">
+<g transform="matrix( 1, 0, 0, 1, -9.5,-9.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer2_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

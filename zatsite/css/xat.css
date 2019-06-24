@@ -1,0 +1,98 @@
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+BODY, P, H1, H2, A {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+H1 {
+	FONT-SIZE: 19px;
+	FONT-WEIGHT: bold;
+}
+H2 {
+	FONT-SIZE: 15px;
+	FONT-WEIGHT: bold;
+}
+A {
+	COLOR: #0000c0;
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-TOP-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-BOTTOM-STYLE: none
+}
+.topmenulink
+{
+	COLOR: #02a9d2;
+}
+.toplistmenulink
+{
+	FONT-WEIGHT: bold;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.gridtitlelink
+{
+	font-size: 22px;
+	FONT-WEIGHT: bold;
+}
+.tablink {
+	font-size: 12px;
+	font-weight: bold;
+}
+.pad16 {
+	margin-left: 16px;
+	margin-top: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+.vtitlelink {
+	FONT-WEIGHT: bold; FONT-SIZE: 19px; TEXT-DECORATION: none
+}
+.vdesc {
+	FONT-SIZE: 12px; MARGIN: 3px 0px
+}
+.vnum {
+	FONT-SIZE: 18px; FONT-WEIGHT: bold;
+}
+.vh1 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 0px;  FONT-SIZE: 19px
+}
+table.xtable {
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: collapse;
+}
+<!--
+tr.xtrh {
+	background-color: rgb(220, 230, 240);
+}
+tr.xtrl {
+        background-color: rgb(230, 240, 250);
+}
+tr.xtrd {
+	background-color: rgb(235, 245, 255);
+}
+-->
+table.xtable th {
+	border-width: 1px;
+	padding: 3px;
+	border-style: solid;
+	border-color: gray;
+}
+table.xtable td {
+	border-width: 1px;
+	padding: 3px;
+	border-style: solid;
+	border-color: gray;
+}

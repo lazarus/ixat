@@ -1,0 +1,61 @@
+<h1>Feast flix settings.</h1>
+<table width="100%" height=50 cellspacing=0 cellpadding=2 border=0>
+    <tr>
+        <td>Effect</td>
+        <td>
+            <select id="ids_ef">
+                <option value="0">None</option>
+                <option value="1" selected>Chef</option>
+                <option value="2">Thanksgiving</option>
+                <option value="3">Turkey</option>
+                <option value="4">Lights</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Horizontal offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_XX">
+        </td>
+    </tr>
+    <tr>
+        <td>Vertical offset % (-100 to +100)</td>
+        <td>
+            <input type="text" value="" id="idt_YY">
+        </td>
+    </tr>
+    <tr>
+        <td>Scale % (1-1000)</td>
+        <td>
+            <input type="text" value="" id="idt_SC">
+        </td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>
+            <select id="ids_bk">
+                <option value="0">None</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Thanksgiving Options</td>
+        <td>Background:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_0" checked> IndianF:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_1" checked> IndianM:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_2" checked> PilgrimF:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_3" checked> PilgrimM:
+            <INPUT TYPE="CHECKBOX" ID="idc_Opt_4" checked> 
+		</td>
+    </tr>
+    <tr>
+        <td>
+            <BR />
+            <button type="button" onClick="changeParent()">Ok</button>
+            <button type="button" onClick="window.close()">Cancel</button>
+            <button type="button" onClick="setDefault()">Defaults</button>
+        </td>
+        <td></td>
+    </tr>
+</table>
+<p><a href="http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html" target="_blank">Color code picker</a></p>

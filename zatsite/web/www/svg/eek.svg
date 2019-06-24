@@ -1,0 +1,95 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="19px" height="19px" viewBox="0 0 19 19">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="10.600000000000001" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 8.5,8.2) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FEDA18"/>
+
+<stop  offset="69.80392156862744%" stop-color="#FEDA18"/>
+
+<stop  offset="100%" stop-color="#BA9501"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="9.35" y1="11.5625" x2="9.35" y2="-2.2625" spreadMethod="pad">
+<stop  offset="20.392156862745097%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="73.72549019607843%" stop-color="#FFFFFF" stop-opacity="0.9490196078431372"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.6509803921568628"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0.25098039215686274"/>
+</linearGradient>
+
+<g id="smilies_smileback_0_Layer2_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 16.2 2.75
+Q 15.555078125 2.1087890625 14.85 1.6 12.4962890625 -0.03125 9.45 -0.05 9.0818359375 -0.02578125 8.7 0 6.2634765625 0.176171875 4.3 1.5 3.49375 2.03203125 2.75 2.75 2.47109375 3.054296875 2.2 3.35 -0.02109375 5.9759765625 -0.05 9.45 -0.020703125 13.3880859375 2.75 16.15 5.56171875 18.970703125 9.45 18.95 13.4005859375 18.970703125 16.2 16.15 18.9830078125 13.3880859375 18.95 9.45 18.9830078125 5.5494140625 16.2 2.75 Z"/>
+</g>
+
+<g id="smilies_smileback_0_Layer1_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 16.95 8.55
+Q 17.1 7.9 17.1 7.1 17.1 4.45 14.85 2.55 12.55 0.65 9.35 0.65 6.2 0.65 3.85 2.55 1.6 4.45 1.6 7.1 1.6 8 1.85 8.7
+L 16.95 8.55 Z"/>
+</g>
+
+<g id="smilies_eek_0_Layer1_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 4.8 6.7
+Q 4.8 8.25 5.65 9.35 6.5 10.45 7.6 10.45 8.75 10.45 9.6 9.35 10.45 8.25 10.45 6.7 10.45 5.15 9.6 4.05 9.3 3.65 9 3.45 8.35 2.95 7.6 2.95 6.5 2.95 5.65 4.05 4.8 5.15 4.8 6.7
+M 12.75 11.65
+Q 11.8267578125 11.407421875 10.9 12.05 10.032421875 12.690234375 9.7 13.85 9.416796875 15.003125 9.85 16 10.319140625 17.002734375 11.2 17.25 12.148046875 17.492578125 13.05 16.85 13.9421875 16.2095703125 14.25 15.05 14.5578125 13.8966796875 14.1 12.9 13.6556640625 11.897265625 12.75 11.65
+M 17.6 5.6
+Q 17.6 4.05 16.75 2.95 16.45 2.55 16.15 2.35 15.5 1.85 14.75 1.85 13.65 1.85 12.8 2.95 11.95 4.05 11.95 5.6 11.95 7.15 12.8 8.25 13.65 9.35 14.75 9.35 15.9 9.35 16.75 8.25 17.6 7.15 17.6 5.6 Z"/>
+</g>
+
+<g id="smilies_eek_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 8.65 5.75
+Q 8.15 5.25 7.45 5.25 6.75 5.25 6.2 5.75 5.7 6.3 5.7 7.05 5.7 7.8 6.2 8.3 6.75 8.85 7.45 8.85 8.15 8.85 8.65 8.3 9.2 7.8 9.2 7.05 9.2 6.3 8.65 5.75
+M 15.15 4.7
+Q 14.65 4.2 13.95 4.2 13.25 4.2 12.7 4.7 12.2 5.25 12.2 6 12.2 6.75 12.7 7.25 13.25 7.8 13.95 7.8 14.65 7.8 15.15 7.25 15.7 6.75 15.7 6 15.7 5.25 15.15 4.7 Z"/>
+</g>
+
+<path id="smilies_eek_0_Layer1_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 6.45 1.2
+Q 8.1 -0.95 9.75 1.2
+M 12.25 0.5
+Q 13.9 -1.65 15.55 0.5"/>
+
+<path id="smilies_eek_0_Layer1_0_2_STROKES" stroke="#990000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 12.75 11.65
+Q 13.6556640625 11.897265625 14.1 12.9 14.5578125 13.8966796875 14.25 15.05 13.9421875 16.2095703125 13.05 16.85 12.148046875 17.492578125 11.225 17.25 10.319140625 17.002734375 9.875 16 9.416796875 15.003125 9.725 13.85 10.032421875 12.690234375 10.925 12.05 11.8267578125 11.407421875 12.75 11.65 Z"/>
+
+<path id="smilies_eek_0_Layer1_0_3_STROKES" stroke="#333333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 16.75 2.95
+Q 17.6 4.05 17.6 5.6 17.6 7.15 16.75 8.25 15.9 9.35 14.75 9.35 13.65 9.35 12.8 8.25 11.95 7.15 11.95 5.6 11.95 4.05 12.8 2.95 13.65 1.85 14.75 1.85 15.5 1.85 16.15 2.35 16.45 2.55 16.75 2.95 Z
+M 4.8 6.7
+Q 4.8 5.15 5.65 4.05 6.5 2.95 7.6 2.95 8.35 2.95 9 3.45 9.3 3.65 9.6 4.05 10.45 5.15 10.45 6.7 10.45 8.25 9.6 9.35 8.75 10.45 7.6 10.45 6.5 10.45 5.65 9.35 4.8 8.25 4.8 6.7 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer2_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_smileback_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_eek_0_Layer1_0_FILL"/>
+
+<use xlink:href="#smilies_eek_0_Layer1_0_1_STROKES"/>
+
+<use xlink:href="#smilies_eek_0_Layer1_0_2_STROKES"/>
+
+<use xlink:href="#smilies_eek_0_Layer1_0_3_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#smilies_eek_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

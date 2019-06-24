@@ -1,0 +1,86 @@
+body {
+	padding:0px;
+	margin: 0px 0px 0px 0px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+#xatstyheader {
+	BACKGROUND-IMAGE: url(//ixat.io/images/vbkbl.gif);
+	height:130px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}	
+
+#xatstyheaderad {
+	text-align: center;
+}
+
+#xatstyheadernav {
+	text-align: center;
+	color:#FFFFFF;
+	padding:10px;
+}
+
+#xatstyfooternav {
+	text-align: center;
+	color:#FFFFFF;
+	padding:10px;
+}
+
+.xatstynavlink A {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+
+.xatstynavlink A:hover {
+	TEXT-DECORATION: underline;
+}
+
+#xatstyinfo {
+	position: absolute;
+	left:16px;
+	top:146px;
+	width:425px;
+}
+
+#xatstyabout0 {
+	margin-top: 16px;
+	margin-left: 457px;
+	margin-right:152px;
+}
+
+#xatstyabout {
+	background:#fff;
+	color: #000000; 
+	font-size: 12pt; 
+	overflow: auto;
+	height: 600px;
+}
+
+#xatstysidead {
+	position: absolute;
+	right:16px;
+	top:146px;
+	width:120px;
+}
+
+#xatstywhatpoll {
+    margin: 16px 16px 16px 16px;
+	text-align: center;
+}
+
+#xatstybigad {
+    margin: 16px 16px 16px 16px;
+	text-align: center;
+}
+
+#xatstymedia0 {
+    margin: 16px 16px 16px 16px;
+}
+
+#xatstymedia {
+	background:#fff;
+	color: #000000; 
+	font-size: 12pt; 
+}

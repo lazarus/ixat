@@ -1,0 +1,420 @@
+<h1>Gcontrol - <small>Set up group control.</small></h1>
+<table width="100%" height=50 cellspacing=0 cellpadding=2 border=0>
+    <tr>
+        <td>Make Guest</td>
+        <td>
+            <select id="ids_mg">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Make member</td>
+        <td>
+            <select id="ids_mb">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8" selected>Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Make moderator</td>
+        <td>
+            <select id="ids_mm">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11" selected>Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Kick</td>
+        <td>
+            <select id="ids_kk">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Ban</td>
+        <td>
+            <select id="ids_bn">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Unban</td>
+        <td>
+            <select id="ids_ubn">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Mod max ban time 0-99 (0 = forever)</td>
+        <td>
+            <input type="text" value="6" id="idt_mbt">
+        </td>
+    </tr>
+    <tr>
+        <td>Owner max ban time 0-999 (0 = forever)</td>
+        <td>
+            <input type="text" value="0" id="idt_obt">
+        </td>
+    </tr>    
+	<tr>
+        <td>See silentban</td>
+        <td>
+            <select id="ids_ssb">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+	<tr>
+        <td>Can't be silentbanned</td>
+        <td>
+            <select id="ids_cbs">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Set scroller</td>
+        <td>
+            <select id="ids_ss">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Must be locked</td>
+        <td>
+            <select id="ids_lkd">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Must be registered</td>
+        <td>
+            <select id="ids_rgd">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Preferred blast 0-4</td>
+        <td>
+            <input type="text" value="0" id="idt_bst">
+        </td>
+    </tr>
+    <tr>
+        <td>Can promote</td>
+        <td>
+            <select id="ids_prm">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5" selected>Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Barge in</td>
+        <td>
+            <select id="ids_bge">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Max toons</td>
+        <td>
+            <input type="text" value="10" id="idt_mxt">
+        </td>
+    </tr>
+    <tr>
+        <td>Ad position 0-2</td>
+        <td>
+            <input type="text" value="0" id="idt_ads">
+        </td>
+    </tr>
+    <tr>
+        <td>Silent member</td>
+        <td>
+            <select id="ids_sme">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Can be Dunced</td>
+        <td>
+            <select id="ids_dnc">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14" selected>Main Owner</option>
+            </select>
+        </td>
+    </tr>
+	<tr>
+		<td>Can ranklock</td>
+		<td>
+			<select id="ids_rl">
+				<option value="0">N/A</option>
+				<option value="2">Guest</option>
+				<option value="3">Temp member</option>
+				<option value="5">Member</option>
+				<option value="7">Temp Moderator</option>
+				<option value="8">Moderator</option>
+				<option value="10">Temp Owner</option>
+				<option value="11" selected>Owner</option>
+				<option value="14">Main Owner</option>
+			</select>
+		</td>
+	</tr>	
+    <tr>
+        <td>Can award badge</td>
+        <td>
+            <select id="ids_bdg">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Can naughty step</td>
+        <td>
+            <select id="ids_ns">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Can yellow card</td>
+        <td>
+            <select id="ids_yl">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Can red card</td>
+        <td>
+            <select id="ids_rc">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7" selected>Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10">Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Red card factor 0.1-10</td>
+        <td>
+            <input type="text" value="6" id="idt_rf">
+        </td>
+    </tr>
+    <tr>
+        <td>Protect mode</td>
+        <td>
+            <select id="ids_p">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Protect default</td>
+        <td>
+            <input type="text" value="1" id="idt_pd">
+        </td>
+    </tr>
+    <tr>
+        <td>Protect time (hours) 0.1-12</td>
+        <td>
+            <input type="text" value="1" id="idt_pt">
+        </td>
+    </tr>
+    <tr>
+        <td>Kick all</td>
+        <td>
+            <select id="ids_ka">
+                <option value="0">N/A</option>
+                <option value="2">Guest</option>
+                <option value="3">Temp member</option>
+                <option value="5">Member</option>
+                <option value="7">Temp Moderator</option>
+                <option value="8">Moderator</option>
+                <option value="10" selected>Temp Owner</option>
+                <option value="11">Owner</option>
+                <option value="14">Main Owner</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Member flood trust 1-99</td>
+        <td>
+            <input type="text" value="4" id="idt_mft">
+        </td>
+    </tr>
+    <tr>
+        <td>Flood threshold 10-200</td>
+        <td>
+            <input type="text" value="50" id="idt_ft">
+        </td>
+    </tr>
+</table>
+
+<BR />
+<button type="button" onClick="changeParent()">Ok</button>
+<button type="button" onClick="window.close()">Cancel</button>
+<button type="button" onClick="setDefault()">Defaults</button>
