@@ -1,48 +1,35 @@
-def vHandler(packet, client, server):
-	if not client.online:
-		success = 0
-		usr = str(packet["user"]) if 'user' in packet else False
-		passwrd = str(packet["pass"]) if 'pass' in packet else False
-		n = str(packet['n']) if 'n' in packet else False
-		p = packet['p'].replace("$", "") if 'p' in packet else False
-		k = str(packet["k"]) if 'k' in packet else False
-		
-		try:		
-			if usr and passwrd and k:
-				key = server.phash("md5", str(usr + passwrd))
-				_user = server.database.fetchArray('select * from `users` where `username`=%(username)s', {'username': usr})
-				if int(_user[0]["id"]) in server.authorizedBots:
-					if not server.database.validate(passwrd, _user[0]['password']):
-						client.send('<v e="8" />')
-					else:
-						login = server.doLogin(usr, passwrd, False)
-						if login == False:
-							client.send('<v t="Bad Bot login." e="2" />')
-						else:
-							success = 1
-							client.send(login)
-			'''
-			elif n and p:
-				_user = server.database.fetchArray('select * from `users` where `username`=%(username)s', {'username': n})
-				#upw = server.phpcrc32(_user[0]['password'])					
-				#if str(p) != str(upw):
-					#client.send('<v e="8" />')
-				if not server.database.validate(p, _user[0]['password']):
-					client.send('<v e="8" />')		
-				else:
-					login = server.doLogin(n, _user[0]['password'], False)
-					if login == False:
-						client.send('<v t="Bad User login." e="2" />')
-					else:
-						success = 1
-						client.send(login)		
-			'''
-		except:
-			client.send('<v t="Bad login." e="2" />')
+def vHandler(packet, client):
+    import logging
 
-		from time import time
-		if n and p:
-			server.database.query("INSERT INTO `loginlogs` (`ip`,`from`,`username`,`success`,`time`) values (%(ip)s, 'v_packet', %(user)s, %(success)s, %(time)s)", {"ip": client.connection["ip"], "user": n, "success": success, "time": int(time())})
-		else:
-			server.database.query("INSERT INTO `loginlogs` (`ip`,`from`,`username`,`success`,`time`) values (%(ip)s, 'v_packet', %(user)s, %(success)s, %(time)s)", {"ip": client.connection["ip"], "user": usr, "success": success, "time": int(time())})
-		
+    success = 0
+    n = str(packet['n']) if 'n' in packet else False
+    p = packet['p'].replace("$", "") if 'p' in packet else False
+
+    if int(client.yPacket["r"]) == 9 and p == '0':
+        _user = database.fetchArray('select username, password from `users` where `id`=%(id)s and `connectedlast`=%(ip)s', {
+                                    'id': int(n), 'ip': str(client.connection['ip'])})
+        if _user != False:
+            success = 1
+            v = server.doLogin(_user[0]['username'], _user[0]['password'], False)
+            client.send(v)
+            client.send_xml('ldone')
+        else:
+            client.send_xml('v', {'e': '8'})
+    else:
+        if not client.online:
+            v = server.doLogin(n, p, False, True)
+
+            if v:
+                success = 1
+                client.send(v)
+                if int(client.yPacket["r"]) == 8:
+                    _user = database.fetchArray('select id, nickname, avatar, url from `users` where `username`=%(username)s', {'username': n})
+                    client.send_xml('i', {'r': '8'})
+                    client.send_xml('c', {'t': '/b ' + str(_user[0]["id"]) + ",0,0," + server.base64decode(str(_user[0]["nickname"])) + "," + str(_user[0]["avatar"]) + "," + str(_user[0]["url"]) + ',0,0'})
+                    client.send_xml('done')
+            else:
+                client.send_xml('v', {'e': '8'})
+
+    from time import time
+    database.query("INSERT INTO `loginlogs` (`ip`,`from`,`username`,`success`,`time`) values (%(ip)s, 'v_packet', %(user)s, %(success)s, %(time)s)", {
+                   "ip": client.connection["ip"], "user": n, "success": success, "time": int(time())})

@@ -7,7 +7,7 @@ from mysql import connector
 import hashlib
 
 
-class furrydb:
+class Database:
 	args = None
 
 	def __init__(self, host='localhost', port=3306, user='root', password='', table='', pool=1):
@@ -29,12 +29,23 @@ class furrydb:
 					self.pool[i].close()
 				except:
 					pass
-
+		self.data = {"chat": {}}
 		self.pool = []
 		self.sema = BoundedSemaphore(value=self.poolSize)
+		self.queries = 0
+		self.assigned = 0
 		for i in range(0, self.poolSize):
 			cn = connector.connect(**self.args)
+			
+			cursor = cn.cursor()
+			"""
+			cursor.execute('SET NAMES utf8mb4;')
+			cursor.execute("SET CHARACTER SET utf8mb4;")
+			cursor.execute("SET character_set_connection=utf8mb4;")
+			"""
 			self.pool.append({'index': i, 'busy': False, 'link': cn})
+			
+		self.fetch = self.fetchArray
 
 	def connectLink(self, index):
 		try:
@@ -72,11 +83,12 @@ class furrydb:
 						columns[key] = selRow[rKey]
 					select.append(columns)
 			cursor.close()
+			self.queries += 1
 		except connector.errors.OperationalError:
 			self.connectLink(cn['index'])
 		except:
 			self.connectLink(cn['index'])
-		# print_exc()
+		# print(format_exc())
 
 		self.releaseLink(cn['index'])
 		return select
@@ -88,11 +100,12 @@ class furrydb:
 			cursor.execute(query, bind)
 			if cursor != False:
 				cursor.close()
+			self.queries += 1
 		except connector.errors.OperationalError:
 			self.connectLink(cn['index'])
 		except:
 			self.connectLink(cn['index'])
-		# print_exc()
+		# print(format_exc())
 
 		self.releaseLink(cn['index'])
 
@@ -104,6 +117,16 @@ class furrydb:
 			idata += '%s, '
 			items.append(insert[key])
 		self.query(str(query % (ikeys[:-2], idata[:-2])), items)
+
+	def loadChat(self, chatid=1):
+		try:
+			if chatid in self.data["chat"].keys():
+				if not "UpdateToken" in self.data["chat"][chatid].keys():
+					return self.data["chat"][chatid]
+			self.data["chat"][chatid] = self.fetchArray("SELECT * FROM `chats` WHERE id = %(id)s", {"id":chatid})[0]
+			return self.data["chat"][chatid]
+		except:
+			return None
 
 	@staticmethod
 	def hash(str, rawsalt = ''):
@@ -120,9 +143,11 @@ class furrydb:
 
 	@staticmethod
 	def validate(test, hash):
+		if not test:
+			return False
 		strl = (len(test) << 2) % 128
 		salt = hash[strl : strl + ((len(test) % 3) + 1) * 5]
-		return True if furrydb.hash(test, salt) == hash else False
+		return True if Database.hash(test, salt) == hash else False
 
 	@staticmethod
 	def rand(length = 32):

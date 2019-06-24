@@ -1,7 +1,7 @@
 {
   "connection":
   {
-    "ip": "0.0.0.0",
+    "ip": "",
     "port": 337
   },
   "database":
@@ -9,7 +9,7 @@
     "user": "a",
     "password": "b",
     "table": "c",
-    "host": "d.d.d.d",
+    "host": "1d1",
     "port": 3306,
     "poolsize": 1
   }

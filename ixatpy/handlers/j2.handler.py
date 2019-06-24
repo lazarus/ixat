@@ -1,9 +1,17 @@
-def j2Handler(packet, client, server):
+def j2Handler(packet, client):
 	from json import loads
 	from math import floor, pow, pi
 	from time import time
+	from base64 import b64decode
+	import re
 
 	if client.sentY == True and client.sentJ2 == False and client.online == False:
+		'''
+		'' Make sure we have all the data we need '''
+		for key in ["k", "c", "u", "n", "a", "h", "f", "y"]:
+			if not key in packet:
+				return client.shutdown()
+				
 		client.info["chat"] = int(packet["c"])
 		client.info["test"] = False
 
@@ -13,12 +21,14 @@ def j2Handler(packet, client, server):
 				client.signOut()
 				return
 			client.info['test'] = True
-			
-		if client.info['chat'] == 8:
-			client.send('<logout e="E33" />')
-			return			
 
-		if not int(packet['u']) in [5, 10, 854, 11, 804, 6]:
+		if client.info['chat'] == 8:
+			client.send_xml('logout', {'e': 'E33'})
+			return
+		
+		#packet["u"] = client.strip_u(packet["u"])
+
+		if ("z" not in packet or packet["z"] != config.X_MOB_VERSION) and not int(packet['u']) in config.X_BYPASS_AUTH:
 			try:
 				client.info["cv"] = loads(packet["cv"])
 				if float(client.info["cv"]["version"]) >= 4:
@@ -38,16 +48,18 @@ def j2Handler(packet, client, server):
 					    [packet["auth2"], l5[p_x][p_y]]
 					]
 					for bypass in BypassArray:
-						if int(bypass[0]) != int(bypass[1]):
+						if int(bypass[0] or 0) != int(bypass[1] or 0) and not packet["u"] in server.config["staff"]:
 							raise Exception("Bad Auth: [" + str(bypass[0]) + "] [" + str(bypass[1]) + "]")
 				else:
 					raise Exception("BAD")
 			except:
-				client.notice("Please relogin to start chatting. 1")
-				client.signOut()
+				#client.notice("Please relogin to start chatting. (0)")
+				client.signOut(True, "E25")
 				return
 
 		client.joinData = packet
-		#client.joinRoom(True, False, True) 
-		server.queue.put([1, client])
+		client.joinRoom(True, False, True)
+		#server.queue.put([1, client])
 		client.info["joinTime"] = float(time())
+	else:
+		client.shutdown()

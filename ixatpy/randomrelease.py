@@ -46,6 +46,8 @@ def init():
 	power = {}
 	for (i, u) in enumerate(cursor.column_names):
 		power[u] = row[i]
+	if int(power['id']) < 0:
+		power['id'] = str(640 + abs(int(power['id'])))
 	release = {'id': power['id'], 'time': int(time())}
 	cursor.execute('select `power_release`, `ipc` from `server`;')
 	fetch = cursor.fetchone()
@@ -56,7 +58,8 @@ def init():
 		sock = socket(AF_INET, SOCK_STREAM)
 		sock.settimeout(3)
 		sock.connect(('127.0.0.1', int(connect)))
-		sock.sendall('<globalmessage t="' + str(amount) + ' ' + power['name'] + '&apos;s have been released" r="1" />\0')
+		#sock.sendall('<globalmessage t="' + str(amount) + ' ' + power['name'] + '&apos;s have been released  | Type ~pvote vote [powername] to vote on a power of your choice." r="1" />\0')
+		sock.sendall('<globalmessage t="' + str(amount) + ' (' + power['name'] + '#) have been released  | Type ~pvote vote [powername] to vote on a power of your choice." r="1" />\0')
 		sock.close()
 	except:
 		pass
