@@ -1,5 +1,4 @@
 # ixat
-ixat/zat/x4t --whatever you want to call it-- sources
 
 This was released and written a long time ago (December of 2018 or so), months after the project had already abandoned due to a complete loss of interest after 4 years or so of enjoyment.
 
